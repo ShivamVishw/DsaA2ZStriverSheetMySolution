@@ -25,7 +25,7 @@ public class HighLowFrequency {
         int min_freq = Integer.MAX_VALUE;
         
         for(int i=1; i<hash.length; i++){
-            if(hash[i]>0){ // Means it has appeared atleast once so need to check
+            if(hash[i]>0){               // Means it has appeared atleast once so need to check
                 if(hash[i]>max_freq){
                     max_freq = hash[i];  // It's tracking maximum frequency of any number so far
                     highestnum = i;      // It'll store that maximum frequency number so far
