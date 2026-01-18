@@ -16,6 +16,6 @@ public class FactorialOfNumber {
     }
 
     public static void main(String[] args) {
-        
+        System.out.println(fact_n(3));
     }
 }

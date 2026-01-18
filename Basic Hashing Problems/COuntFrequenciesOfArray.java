@@ -25,10 +25,9 @@ public class COuntFrequenciesOfArray {
 
         for(int i=0; i<arr.length; i++){
             if(hash[i]>0){
-                System.out.println(i + " has occured "+ hash[arr[i]]+ " times.");
+                System.out.println(i + " has occured "+ hash[i]+ " times.");
             }
         }
-
 
     }
     public static void main(String[] args) {
