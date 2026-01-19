@@ -10,6 +10,7 @@ public class LinkedListExample {
         ll.add(10);
         ll.add(20);
         ll.add(30);
+        System.out.println(ll);
        
         // addFirst() / addLast()
         ll.addFirst(5);
@@ -28,6 +29,7 @@ public class LinkedListExample {
         // remove()
         ll.remove(Integer.valueOf(20));
         System.out.println(ll); // [10, 30]
+
     }
 }
 

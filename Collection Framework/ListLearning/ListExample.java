@@ -4,8 +4,11 @@ import java.util.List;
 
 public class ListExample {
     public static void main(String[] args) {
-        List<Integer> list = new ArrayList<>();
         
+        // Declaration
+        List<Integer> list = new ArrayList<>();
+
+
         // add()
         list.add(10);
         list.add(20);
@@ -25,7 +28,7 @@ public class ListExample {
         
         // remove(index)
         list.remove(1);
-        System.out.println(list); // [10, 25, 30]
+        System.out.println(list); // [10, 25, 30]  
         
         // remove(Object)
         list.remove(Integer.valueOf(25));
@@ -35,17 +38,21 @@ public class ListExample {
         System.out.println(list.size()); // 2
         
         // contains()
-        System.out.println(list.contains(10)); // true
+        System.out.println(list.contains(67)); // true
         
         
         // indexOf() & lastIndexOf()
         list.add(10);
+        list.add(10);
+        System.out.println(list);
         System.out.println(list.indexOf(10)); // 0
         System.out.println(list.lastIndexOf(10)); // 2
         
         // clear()
         list.clear();
+        System.out.println(list.isEmpty()); 
         System.out.println(list); // []
+
 
     }
 }
@@ -55,14 +62,14 @@ public class ListExample {
 
 // Common List Methods (Very Important)
 
-// add()
-// add(index, element)
-// get(index)
-// set(index, element)
-// remove(index)
-// remove(Object)
-// size()
-// contains()
-// indexOf()
-// lastIndexOf()
-// clear()
+// add() -- normal add
+// add(index, element)  -- add at particular index
+// get(index)  -- get data from particular index
+// set(index, element)  -- update data at particular index
+// remove(index)  --- remove data at ith index
+// remove(Object) -- remove element directly if don't know index
+// size()  -- check the size of list
+// contains()  -- boolean method to check whether given element are there are not
+// indexOf()  -- get the index of particular element 
+// lastIndexOf() -- give you last index
+// clear()  -- clear all element

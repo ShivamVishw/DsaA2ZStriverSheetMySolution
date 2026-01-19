@@ -28,6 +28,8 @@ public class ArrayListExample {
         
         // isEmpty()
         System.out.println(names.isEmpty()); // false
+
+        System.out.println(names);
         
         
         // Iteration (MOST USED)
